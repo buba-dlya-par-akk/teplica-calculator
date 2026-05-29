@@ -1,0 +1,23 @@
+{
+  "metadata": {
+    "description": "Учебные коэффициенты для расчёта полива теплицы",
+    "formula": "Объём = Площадь × БазовыйРасход × (1 + (Темп - 20) × Ктемп) × (ОптВлаж / ТекВлаж)"
+  },
+  "cultures": {
+    "помидоры": {
+      "base_rate_l_per_m2": 4.5,
+      "temp_coefficient": 0.08,
+      "opt_moisture": 70
+    },
+    "огурцы": {
+      "base_rate_l_per_m2": 6.0,
+      "temp_coefficient": 0.1,
+      "opt_moisture": 80
+    },
+    "перцы": {
+      "base_rate_l_per_m2": 3.5,
+      "temp_coefficient": 0.07,
+      "opt_moisture": 65
+    }
+  }
+}
