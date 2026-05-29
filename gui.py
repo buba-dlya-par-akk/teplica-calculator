@@ -7,7 +7,7 @@ from tkinter import ttk, messagebox, scrolledtext
 from datetime import datetime
 import json
 from calculator import calculate_watering, load_coefficients, compare_cultures
-
+import os
 
 class WateringCalculatorGUI:
     """Основной класс графического интерфейса"""
