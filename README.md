@@ -11,3 +11,5 @@
 git clone https://github.com/ВАШ_ЛОГИН/agro-calc.git
 cd agro-calc
 python src/main.py
+
+![Снимок экрана](Снимок%20экрана%202026-05-29%20104043.png)
